@@ -9,7 +9,7 @@ $ docker build -t mean .
 $ docker run -p 27017:27017 -d --name db mongo
 $ docker run -p 3000:3000 --link db:db_1 mean
 
-
+This is for testing
 [![MEAN.JS Logo](http://meanjs.org/img/logo-small.png)](http://meanjs.org/)
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/meanjs/mean?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
